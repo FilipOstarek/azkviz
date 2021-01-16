@@ -17,6 +17,8 @@ premena = False
 running = True
 #zacatek je k tomu aby se barvy nehodily hned pokud není otázka
 zacatek = True
+vitezM = False
+vitezO = False
 obrazovka_x = 1000
 obrazovka_y = 1000
 obrazovka = pygame.display.set_mode((obrazovka_x, obrazovka_y))
@@ -27,6 +29,8 @@ red = (255,0,0,100)
 sed = (100,100,100)
 orandzova = (255,165,0)
 modra = (0,255,255)
+cerno = (0,0,0)
+bila = (150,150,150)
 #redPlayer = (255,0,0,254)
 
 #mezera mezi šestiúhelníky
@@ -35,6 +39,7 @@ mezera = velikost/3
 rada = 0
 #ocislovani
 ocislovani = 0
+souradnice = 0
 #cisla pro barvu
 bc = 0
 #odsazení šestiúhelnkíků
@@ -60,3 +65,5 @@ bod4 = (vrchol_x/4, vrchol_y + 2 * (velikost*3))
 bod5 = (vrchol_x/4 - math.ceil(math.sqrt((velikost*3) ** 2 - ((velikost*3) / 2) ** 2)),vrchol_y + (velikost*3) + (velikost*3) / 2)
 bod6 = (vrchol_x/4 - math.ceil(math.sqrt((velikost*3) ** 2 - ((velikost*3) / 2) ** 2)),vrchol_y + ((velikost*3) / 2))
 #šestiúhelník (vrchol-přímka)
+rada_odpovedi = 0
+umisteni_odpovedi = 0

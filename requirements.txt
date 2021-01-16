@@ -1,3 +1,2 @@
 pygame
 math
-numpy
